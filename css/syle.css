@@ -88,7 +88,52 @@ body{
 	float: right;
 }
 
+.offers{
+	margin-bottom: 80px;
+}
+
 .offers-item{
 	float: left;
 	width: 240px;
+	margin-right: 80px;
 }
+
+.offers-item:nth-child(3n){
+	margin-right: 0;
+}
+
+.about-us{
+	margin-bottom: 55px;
+	border-top: 2px solid #eeeeee;
+	border-bottom: 2px solid #eeeeee;
+}
+
+.about-us-left-column{
+	float: left;
+	width: 620px;
+}
+
+.about-us-right-column{
+	float: right;
+	width: 250px;
+}
+
+.partners{
+	padding-left: 12px;
+	border-bottom: 2px solid #eee;
+}
+
+.partners-item{
+	float: left;
+	margin-right: 120px;
+}
+
+.partners-item:nth-child(3n){
+	margin-right: 0;
+}
+
+.footer{
+	max-height: 216px;
+	background-color: #eee;
+}
+
