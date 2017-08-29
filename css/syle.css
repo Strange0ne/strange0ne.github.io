@@ -87,3 +87,8 @@ body{
 	width: 340px;
 	float: right;
 }
+
+.offers-item{
+	float: left;
+	width: 240px;
+}
