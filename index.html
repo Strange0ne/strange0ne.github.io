@@ -2,132 +2,174 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>БАРБЕРШОП «БОРОДИНСКИЙ»</title>
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<title>Nerds</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/syle.css">
 </head>
 <body>
 	<header class="main-header">
 		<div class="container clearfix">
+			<div class="main-header-logo">
+				<a href="#">
+					<img src="img/header-logo.png" alt="Nerds-logo" width="139" height="56">
+				</a>
+			</div>
 			<nav class="main-navigation">
-			<ul>
-				<li><a href="#">Информация</a></li>
-				<li><a href="#">Новости</a></li>
-				<li><a href="#">Прайс-лист</a></li>
-				<li><a href="#">Магазин</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
+				<ul>
+					<li><a href="#">Студия</a></li>
+					<li><a href="#">Клиенты</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
 			</nav>
-			<div class="user-block">
-				<a class="login" href="#">Вход</a>
+			<div class="header-cart">
+					<a href="#" class="cart">Корзина</a>
+			</div>
+			<div class="slides clearfix">
+				<input type="radio" name="slides-controlls" id="slides-controlls-spec" class="slides-controlls-spec">
+				<input type="radio" name="slides-controlls" id="slides-controlls-design" class="slides-controlls-design">
+				<input type="radio" name="slides-controlls" id="slides-controlls-drug" class="slides-controlls-drug">
+				<label for="slides-controlls-spec"></label>
+				<label for="slides-controlls-design"></label>
+				<label for="slides-controlls-drug"></label>
+				<div class="slide clearfix">
+					<div class="slide-left-column clearfix">
+						<div class="slide-content">
+							<h2 class="slide-title">Долго, дорого,<br> скрупулезно.</h2>
+							<p>
+								Математически выверенный дизайн для вашего сайта или мобильного приложения.
+							</p>
+							<a href="#" class="btn btn-spec">Узнать больше</a>
+						</div>
+					</div>
+					<div class="slide-right-column clearfix">
+						<div>
+							<img src="img/slide-img1.png" alt="screen" width="338" height="231">
+						</div>
+					</div>
+				</div>
+			<!-- 	<div class="slide">
+					<div class="slide-left-column">
+						<h2 class="slide-title">Любите ли вы математику,как любим ее мы?</h2>
+						<p>
+							Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать
+						</p>
+						<a href="#" class="btn btn-design">Узнать больше</a>
+					</div>
+					<div class="slide-right-column">
+						<img src="img/slide-img2.png" alt="screen" width="230" height="249">
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-left-column">
+						<h2 class="slide-title">Только наркотики, только хардкор!</h2>
+						<p>
+							Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов
+						</p>
+						<a href="#" class="btn btn-drug">Узнать больше</a>
+					</div>
+					<div class="slide-right-column">
+						<img src="img/slide-img3.png" alt="screen" width="333" height="119">
+					</div>
+				</div> -->
 			</div>
 		</div>
 	</header>
-	<main class="container">
-		<div class="logo">
-			<img src="img/index-logo.png" alt="Барбершоп Бородинский" width="368" height="204">
+	<main class="container clearfix">
+		<div class="offers">
+			<div class="offers-item">
+				<img src="img/site-image.png" alt="Сайты" width="240" height="124">
+				<h3>Веб-сайты</h3>
+				<p>
+					Мир никогда не будет прежним после того как увидит ваш сайт!
+				</p>
+				<a href="#" class="btn">Заказать</a>
+			</div>
+			<div class="offers-item">
+				<img src="img/app-image.png" alt="Сайты" width="240" height="124">
+				<h3>Приложения</h3>
+				<p>
+					Покорите топ-10 приложений в AppStrore и Google Play
+				</p>
+				<a href="#" class="btn">Заказать</a>
+			</div>
+			<div class="offers-item">
+			<img src="img/pres-image.png" alt="Сайты" width="240" height="124">
+				<h3>Презентации</h3>
+				<p>
+					Вы даже не подозреваете, насколько вы изумительны!
+				</p>
+				<a href="#" class="btn">Заказать</a>
+			</div>
 		</div>
-		<section class="features clearfix">
-			<div class="features-item">
-				<b class="features-name">Быстро</b>
-				<p>
-					МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+		<hr>
+		<div class="about-us">
+			<div class="about-us-left-column">
+				<h1>
+					Мы — маленькая, но гордая дизайн-студия из Краснодара. 
+				</h1>
+				<p class="about-us-text1">
+					Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.
 				</p>
-			</div>
-			<div class="features-item">
-				<b class="features-name">Круто</b>
-				<p>
-					ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
-					МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
+				<p class="about-us-text2">
+					Выполняем заказы на разработку:
 				</p>
-			</div>
-			<div class="features-item">
-				<b class="features-name">Дорого</b>
-				<p>
-					НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
-				</p>
-			</div>
-		</section>
-		<div class="index-content clearfix">
-			<div class="index-content-left">
-				<h2 class="index-content-title">Новости</h2>
-				<ul class="news-preview">
-					<li>
-						<p>
-							НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
-						</p>
-						<time datetime="2016-09-25">25 сентября</time>
-					</li>
-					<li>
-						<p>
-							В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
-						</p>
-						<time datetime="2016-09-19">19 сентября</time>
-					</li>
+				<ul class="about-us-features">
+					<li>Веб-сайтов любой сложности</li>
+					<li>Мобильных приложений для iOS и Android</li>
+					<li>Слайдшоу и видео для корпоративных презентаций</li>
 				</ul>
-				<a href="#" class="btn">Все новости</a>
 			</div>
-			<div class="index-content-right">
-				<h2 class="index-content-title">Фотогалерея</h2>
-				<div class="gallery">
-					<figure class="gallery-content">
-						<img src="img/gallery-photo.jpg" alt="Фото зала" width="286" height="164">
-					</figure>
-					<button class="btn gallery-prev">Назад</button>
-					<button class="btn gallery-next">Вперед	</button>
-				</div>
+			<div class="about-us-right-column">
+				<img src="img/big-logo.png" alt="Nerds" width="187" height="75">
+				<span class="about-us-year">SINCE 2004</span>
+				<p class="about-us-text2">
+					Как мы работаем:
+				</p>
+				<ul class="about-us-features">
+					<li>С самоотдачей 146%</li>
+					<li>Соблюдая сроки на 100%</li>
+					<li>По предоплате 50%</li>
+				</ul>
 			</div>
 		</div>
-		<div class="index-content clearfix">
-			<div class="index-content-left">
-				<h2 class="index-content-title">Контактная информация</h2>
-				<p>
-					БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-					АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br>	
-					ТЕЛЕФОН: +7 (495) 666-02-66
-				</p>
-				<p>
-					ВРЕМЯ РАБОТЫ: <br>
-					ПН — ПТ: С 10:00 ДО 22:00 <br>
-					СБ — ВС: С 10:00 ДО 19:00
-				</p>
-				<a href="#" class="btn">Как проехать</a>
-				<a href="#" class="btn">Обратная связь</a>
+		<div class="partners">
+			<div class="partners-item">
+				<img src="img/glukhanko.png" alt="Glukhanko" width="198" height="37">
 			</div>
-			<div class="index-content-right">
-				<h2 class="index-content-title">Записаться</h2>
-				<p>
-					УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
-				</p>
-				<form action="" class="appoinment-form" method="post">
-					<input type="text" name="date" placeholder="Дата">
-					<input type="text" name="time" placeholder="Время">
-					<input type="text" name="name" placeholder="Ваше имя">
-					<input type="tel" name="phone" placeholder="Телефон">
-					<button class="btn" type="submit">Отправить</button>
-				</form>
+			<div class="partners-item">
+				<img src="img/htmlacademy.png" alt="JtmlAcademy" width="199" height="68">
+			</div>
+			<div class="partners-item">
+				<img src="img/borodinski.png" alt="Borodinski" width="209" height="86">
 			</div>
 		</div>
 	</main>
-	<footer class="main-footer">
-		<div class="container clearfix">
-			<section class="footer-contacts">
-				БАРБЕРШОП «БОРОДИНСКИЙ» <br>
-				АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>
-				<a href="#">КАК НАС НАЙТИ?</a> <br>
-				ТЕЛЕФОН: +7 (495) 666-02-66
-			</section>
-			<section class="footer-social">
-				<p>Давайте дружить!</p>
-				<a href="" class="social-btn social-btn-vk">Вконтакте</a>
-				<a href="" class="social-btn social-btn-fb">Фейсбук</a>
-				<a href="" class="social-btn social-btn-inst">Инстаграм</a>
-			</section>
-			<section class="footer-copyright">
-				<p>Разрабаотанно</p>
-				<a href="#" class="btn">HTMLACADEMY.RU</a>
-			</section>
+	<footer>
+		<div class="container">
+			<div class="map-block">
+					
+			</div>
+			<div class="feedback">
+				<h3>NЁRDS DESIGN STUDIO</h3>
+				<p class="adress">
+					191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+				</p>
+				<p class="tel">
+					тел. +7 (812) 275-75-75
+				</p>
+				<a href="" class="btn"></a>
+			</div>
+			<div class="footer-left-column">
+				<a href="#" class="social-vk"></a>
+				<a href="#" class="social-fb"></a>
+				<a href="#" class="social-inst"></a>
+			</div>
+			<div class="footer-right-column">
+				<h2>Давайте дружить, это выгодно!</h2>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+			</div>
 		</div>
 	</footer>
 </body>
