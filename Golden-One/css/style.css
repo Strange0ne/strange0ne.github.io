@@ -1,0 +1,16 @@
+body{
+	font-family: 'Arial', sans-serif;
+	color: #222; 
+}
+
+.container{
+	width: 920px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.clearfix::after{
+	display: table;
+	content: '';
+	clear: both;
+}
