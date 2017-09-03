@@ -5,6 +5,79 @@ body{
 	line-height: 24px;
 }
 
+.btn{
+	display: inline-block;
+	padding: 10px 0;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 3px;
+	vertical-align: top;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	outline: none;
+	border: none;
+	cursor: pointer; 
+}
+
+.btn-spec{
+	background-color: #fb565a;
+	padding: 10px 70px;
+}
+
+.btn-spec:hover{
+	background-color: #d6494d;
+}
+
+.btn-spec:active{
+	background-color: #b63538;
+}
+
+.o-btn{
+	padding: 10px 40px;
+}
+
+.red{
+ 	background-color: #fb565a;
+}
+
+.red:hover{
+	background-color: #d6494d;
+}
+
+.red:active{
+	background-color: #b63538;
+}
+
+.green{
+	background-color: #00ca74;
+}
+
+.green:hover{
+	background-color: #01a25e;
+}
+
+.green:active{
+	background-color: #009053;
+}
+
+.yellow{
+	background-color: #efc84a;
+}
+
+.yellow:hover{
+	background-color: #d6ae2c;
+}
+
+.yellow:active{
+	background-color: #c09b24;
+}
+
+.feedback .btn{
+	padding: 10px 55px;
+	background-color: #fb565a;
+}
+
 .container{
 	width: 880px;
 	margin: 0 auto;
@@ -20,24 +93,26 @@ body{
 .main-header{
 	max-height: 436px;
 	margin-bottom: 80px;
+	padding-top: 25px;
 	background-color: #eee;
 }
 
 .main-header-logo{
-	line-height: 30px;
-	padding-top: 27px;
+	padding-top: 0px;
+	margin-right: 80px;
 	float: left;
 	width: 140px;
 	font-size: 14px;
-	margin-right: ;
 }
 
 
 .main-navigation{
-	padding-top: 60px;
+	padding-top: 15px;
 	width: 560px;
 	float: left;
+	margin-bottom: 50px;
 }
+
 .main-navigation ul{
 	margin: 0;
 	padding: 0;
@@ -50,21 +125,22 @@ body{
 	display: inline-block;
 	vertical-align: top;
 	font-size: 14px;
-	line-height: 30px;
 }
 
 .main-navigation a{
 	text-decoration: none;
 	text-transform: uppercase;
 	padding-left: 40px;
+	color: #000;
+	line-height: 30px;
 }	
 
 .header-cart{
-	padding-top: 60px;
-	padding-left: 11px;
+	padding-top: 15px;
 	padding-right: 0px;
+	text-align: right;
 	float: right;
-	width: 169px;
+	width: 100px;
 }
 
 .header-cart a{
@@ -77,15 +153,32 @@ body{
 	text-transform: uppercase;
 }
 
+.slides{
+	height: 310px;
+}
 
 .slide-left-column{
 	float: left;
-	width: 480px;
+	width: 400px;
 }
 
 .slide-right-column{
 	width: 340px;
 	float: right;
+}
+
+
+.slide-content h2{
+	margin: 0;
+	margin-bottom: 5px;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.slide-content p{
+	color: #676d71;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .offers{
